@@ -42,7 +42,7 @@ public class CirQueue<E> {
             rear=(rear+1)%a.length;  
             return true;  
         }  
-    }  
+    }
       
     /** 
      * 队列头部出队 
